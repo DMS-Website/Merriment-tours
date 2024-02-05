@@ -979,7 +979,7 @@ display: inline-block;
 color: white;
 position: relative;
 background-color: rgba(255, 255, 255, 0);
-box-shadow: 0px 0px 5px #000; 
+box-shadow: 3px 6px 9px 2px #00000075; 
 }
 
 .caption {
@@ -1035,7 +1035,7 @@ opacity: 0.5;
 .testimonial_slider .testimonial_item {
   border: 1px solid #eeeeee;
   background: #fff;
-  padding: 40px;
+  padding: 0px;
 }
 
 .testimonial_slider .testimonial_item img {
@@ -1237,7 +1237,7 @@ opacity: 0.5;
 }
 
 .blog_info .post_tag a:hover {
-  color: #52c5fd;
+  color: #ef6413;
 }
 
 .blog_info .blog_meta li a {
@@ -1258,7 +1258,7 @@ opacity: 0.5;
 }
 
 .blog_info .blog_meta li a:hover {
-  color: #52c5fd;
+  color: #ef6413;
 }
 
 .blog_post img {
@@ -1280,7 +1280,7 @@ opacity: 0.5;
 }
 
 .blog_details h2:hover {
-  color: #52c5fd;
+  color: #ef6413;
 }
 
 .blog_details p {
@@ -1305,7 +1305,7 @@ opacity: 0.5;
 .blog_right_sidebar .widget_title {
   font-size: 18px;
   line-height: 25px;
-  background: #f3c300;
+  background: #ef6413;
   text-align: center;
   color: #fff;
   padding: 8px 0px;
@@ -1322,7 +1322,7 @@ opacity: 0.5;
   padding-left: 20px;
   border-radius: 45px;
   z-index: 0;
-  background: #f3c300;
+  background: #ef6413;
 }
 
 .blog_right_sidebar .search_widget .input-group .form-control.placeholder {
@@ -1395,7 +1395,7 @@ opacity: 0.5;
 }
 
 .blog_right_sidebar .author_widget .social_icon a:hover {
-  color: #52c5fd;
+  color: #ef6413;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body {
@@ -1418,7 +1418,7 @@ opacity: 0.5;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body h3:hover {
-  color: #52c5fd;
+  color: #ef6413;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body p {
@@ -1454,11 +1454,11 @@ opacity: 0.5;
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li:hover {
-  border-color: #52c5fd;
+  border-color: #ef6413;
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li:hover a {
-  color: #52c5fd;
+  color: #ef6413;
 }
 
 .blog_right_sidebar .newsletter_widget {
@@ -1515,7 +1515,7 @@ opacity: 0.5;
 }
 
 .blog_right_sidebar .newsletter_widget .bbtns {
-  background: #f8b600;
+  background: #ef6413;
   color: #fff;
   font-size: 12px;
   line-height: 38px;
@@ -1547,7 +1547,7 @@ opacity: 0.5;
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #f3c300;
+  background: #ef6413;
   color: #fff;
 }
 
@@ -1577,7 +1577,7 @@ opacity: 0.5;
 }
 
 .blog-pagination .page-item.active .page-link {
-  background-color: #f3c300;
+  background-color: #ef6413;
   border-color: transparent;
   color: #fff;
 }
@@ -1604,7 +1604,7 @@ opacity: 0.5;
 .blog-pagination .page-link:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #f3c300;
+  background-color: #ef6413;
   border-color: #eee;
 }
 
@@ -1844,7 +1844,7 @@ opacity: 0.5;
 }
 
 .comments-area .btn-reply:hover {
-  background-color: #f3c300;
+  background-color: #ef6413;
   color: #fff;
 }
 
@@ -1937,7 +1937,7 @@ opacity: 0.5;
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
-  background: #f8b600;
+  background: #ef6413;
   display: inline-block;
   padding: 7px 44px;
   -webkit-transition: all 0.2s linear;
@@ -1946,19 +1946,162 @@ opacity: 0.5;
 }
 
 .comment-form .primary-btn:before {
-  background: #f3c300;
+  background: #ef6413;
 }
 
 .comment-form .primary-btn:hover {
-  border-color: #f3c300 !important;
+  border-color: #ef6413 !important;
   color: #fff  !important;
 }
 
 /*============ End Blog Single Styles  =============*/
+
+/*============ Start cards-container  =============*/
+
+.cards-container-area-heading{
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#dcdcdc;
+  
+}
+
+.cards-container-area-heading h5{
+  color: #000;
+}
+
+.cards-container .cards-container-card .cards-container-image-box .cards-container-action a{
+  text-decoration: none;
+}
+
+.cards-container-area-heading h2{
+  font-size: 40px;
+  color: #000;
+}
+
+.cards-container-area{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  background:#dcdcdc;
+}
+
+
+.cards-container{
+  position:relative;
+  width:1200px;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap:20px;
+  padding:20px;
+}
+
+
+.cards-container .cards-container-card{
+  width:100%;
+  background:#fff;
+  box-shadow: 3px 6px 9px 2px #00000075;
+}
+
+
+.cards-container .cards-container-card .cards-container-image-box{
+  position:relative;
+  width:100%;
+  height:310px;
+  overflow: hidden;
+}
+
+.cards-container .cards-container-card .cards-container-image-box img{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition: 0.5s ease-in-out;
+}
+
+.cards-container .cards-container-card:hover img{
+  transform: scale(1.2);
+}
+
+.cards-container-action{
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+
+.cards-container-action li{
+  position:relative;
+  list-style:none;
+  width:40px;
+  height:40px;
+  background:#fff;
+  color: #ef6413;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin:4px;
+  cursor:pointer;
+  border-radius: 100%;
+  box-shadow: 0px 0.5px 3px #000;
+}
+
+
+.cards-container-action li:hover{
+  background:#ef6413;
+  color:#fff;
+}
+
+
+
+.cards-container .cards-container-card .cards-container-content{
+  padding:10px;
+}
+
+.cards-container .cards-container-card .cards-container-content .tour-name h3{
+  font-size:18px;
+  font-weight:500;
+  color:#333;
+  margin:5px;
+}
+
+.cards-container .cards-container-card .cards-container-content .price_rating{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 0px 5px;
+} 
+
+.cards-container .cards-container-card .cards-container-content .price_rating h2{
+  font-size:20px;
+  color:#000;
+  font-weight:500;
+}
+
+.cards-container .cards-container-card .cards-container-content .price_rating .fa-solid{
+  color:#ef6413;
+  cursor:pointer;
+}
+
+
+.cards-container-rating{
+  display:flex;
+}
+
+
+
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /*============== contact_area css ================*/
 
+.contact_area{
+  background: #dcdcdc;
+}
 
 .contact_info .info_item {
   position: relative;
@@ -1971,7 +2114,7 @@ opacity: 0.5;
   top: 0;
   font-size: 20px;
   line-height: 24px;
-  color: #f3c300;
+  color: #ef6413;
   font-weight: 600;
 }
 
@@ -2038,52 +2181,144 @@ opacity: 0.5;
   cursor: pointer;
 }
 
-/* Contact Success and error Area css
-============================================================================================ */
-.modal-message .modal-dialog {
-  position: absolute;
-  top: 36%;
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%) !important;
-  -ms-transform: translateX(-50%) translateY(-50%) !important;
-  transform: translateX(-50%) translateY(-50%) !important;
-  margin: 0px;
-  max-width: 500px;
+/*================product-container Area =================*/
+
+
+.product-container {
+  background-color: #dcdcdc;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.product-box {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgb(0, 0, 0, 12%);
+  padding: 45px;
+  margin: 15px 0;
+  width: 950px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr;
+  grid-template-areas: 
+  "images info"
+  "images description";
+  grid-gap: 35px;
+}
+
+.product-box .images {
+  grid-area: images;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto 1fr;
+  grid-template-areas: 
+  "active active active"
+  "idle idle idle";
+  grid-gap: 5px;
+}
+
+.product-box .images .img-holder img {
   width: 100%;
-}
-
-.modal-message .modal-dialog .modal-content .modal-header {
-  text-align: center;
   display: block;
-  border-bottom: none;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  border-radius: 10px;
 }
 
-.modal-message .modal-dialog .modal-content .modal-header .close {
-  position: absolute;
-  right: -15px;
-  top: -15px;
-  padding: 0px;
-  color: #fff;
-  opacity: 1;
+.product-box .images .img-holder.active {
+  grid-area: active;
+}
+
+.product-box .images .img-holder:not(.active):hover {
+  opacity: 0.95;
   cursor: pointer;
 }
 
-.modal-message .modal-dialog .modal-content .modal-header h2 {
-  display: block;
-  text-align: center;
-  color: #f3c300;
-  padding-bottom: 10px;
-  font-family: "Poppins", sans-serif;
+.product-box .basic-info {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.modal-message .modal-dialog .modal-content .modal-header p {
-  display: block;
+.product-box .basic-info h1{
+  color: #010101;
 }
 
-/* End Contact Success and error Area css
-============================================================================================ */
+.product-box .basic-info .rate {
+  color: #ef6413;
+}
+
+.product-box .basic-info span {
+  font-weight: 800;
+  font-size: 25px;
+  color: #000;
+}
+
+.product-box .basic-info .options a {
+  color: #fff;
+  background-color: #ef6413;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.product-box .basic-info .options a:hover {
+  background-color:#b93601 ;
+}
+
+.product-box .description {
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.product-box .description p {
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.product-box .description .features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #333333;
+}
+
+.product-box .description .features i {
+  margin-right: 5px;
+}
+
+.product-box .description .features .fa-circle-check {
+  color: #ef6413;
+}
+
+
+
+.product-box .description .social {
+  list-style: none;
+  display: flex;
+}
+
+.product-box .description .social a {
+  margin-right: 15px;
+  color: var(--gray-color);
+}
+
+.product-box .description .social a:hover {
+  color: var(--secondary-color);
+}
+
+
+
 
 
 
